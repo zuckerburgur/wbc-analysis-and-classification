@@ -29,7 +29,7 @@ Classification is based on a **rule-based system** designed through careful anal
 
 The following flowchart outlines the complete WBC analysis and classification pipeline:
 
-![System Flow Diagram](images/Code flow diagram.png)
+![System Flow Diagram](images/code_flow_diagram.png)
 
 ## Project Structure
 ```plaintext
