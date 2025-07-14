@@ -46,7 +46,7 @@ wbc-classification/
 ├── LICENSE
 └── .gitignore
 ```
-
+---
 ## File and Function Descriptions
 
 ### `main.py`
@@ -85,20 +85,21 @@ git clone https://github.com/yourusername/wbc-classification.git
 cd wbc-classification
 ```
 2. Access datasets: https://drive.google.com/file/d/1ngIbP2j5nDbao81IH2VRa-iQGKIDgneM/view?usp=sharing
-### The dataset consists of two main folders: 
-1. Train Folder 
-  Contains five subfolders:  
-#### ▪ Neutrophil 
-#### ▪ Monocyte 
-#### ▪ Lymphocyte 
-#### ▪ Eosinophil 
-#### ▪ Basophil 
-• Each subfolder has 100 images captured at 100x magnification. 
-2. Test Folder 
-#### • Contains the same five subfolders (50 images each). 
-##### • Used for evaluating model performance.
+  #### The dataset consists of two main folders: 
+  i. Train Folder 
+    Contains five subfolders:  
+  ##### ▪ Neutrophil 
+  ##### ▪ Monocyte 
+  ##### ▪ Lymphocyte 
+  ##### ▪ Eosinophil 
+  ##### ▪ Basophil 
+  • Each subfolder has 100 images captured at 100x magnification. 
+  ii. Test Folder 
+  ##### • Contains the same five subfolders (50 images each). 
+  ##### • Used for evaluating model performance.
 
 3. Run main.py.
+---
 
 ## Dependencies
 This project requires the following Python packages:
@@ -110,6 +111,8 @@ This project requires the following Python packages:
 ```bash
 pip install numpy opencv-python matplotlib scikit-image
 ```
+---
+
 ## Confusion Matrix (Test Set)
 
 | Actual \ Predicted | Monocyte | Lymphocyte | Neutrophil | Basophil | Eosinophil |
@@ -119,7 +122,7 @@ pip install numpy opencv-python matplotlib scikit-image
 | **Neutrophil**     | 0        | 1          | 13         | 0        | 1           |
 | **Basophil**       | 2        | 0          | 0          | 11       | 2           |
 | **Eosinophil**     | 3        | 1          | 3          | 0        | 8           |
-
+---
 
 ## References
 
@@ -130,6 +133,7 @@ www.analyticsvidhya.com/blog/2021/06/confusion-matrix-for-multi-class-classifica
 3. Rustam, Furqan, et al. “White Blood Cell Classification Using Texture and RGB Features of 
 Oversampled Microscopic Images.” Healthcare, vol. 10, no. 11, 1 Nov. 2022, p. 2230, 
 www.mdpi.com/2227-9032/10/11/2230, https://doi.org/10.3390/healthcare10112230.
+---
 
-##### License
+### License
 This project is licensed under the MIT License.
